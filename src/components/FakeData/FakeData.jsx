@@ -18,6 +18,7 @@ const FakeData = () => {
           model={data.model}
           price={data.Price}
           id={data.id}
+          key={data.id}
         ></ShowData>
       ))}
     </div>
